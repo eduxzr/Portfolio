@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(193, 216, 221), rgb(255, 255, 255), rgba(175, 205, 223, 0.993));
+  background-size: 500% 100%;
+  animation-name: degrade;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes degrade{
+  0%{
+      background-position-x: 0%;
+  }
+  100%{
+      background-position-x: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img{border-radius:0px 20px 0px 20px;border: 2px solid #4070F4}
+
+
+
+.footer-copyright {
+  padding: 1.5rem;
+  background-color:#4070F4;
+  color: #000000;
+  text-align: center;
+}
+
+
+.curriculo{
+  border-radius:0px 10px 0px 10px;
+  border: 0px solid #4070F4;
+  background-color: #4070F4;
+}
+
+hr {
+	height:4x; 
+  border-radius:200px;
+	border: 1px solid; 
+	border-color:#4070F4;
+	}
+
+
+
+
+
+
+
+
+
+.redes-sociais {
+  height: 120px;
+}
+
+.redes-sociais h2 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.redes-sociais nav {
+  display:flex;
+  flex-direction: column;
+}
+
+.redes-sociais nav a {
+  margin-top: 7px;
+  color:rgba(36, 36, 163, 0.829);
+  text-decoration: none;
+}
+
+.redes-sociais nav a:hover {
+  filter:brightness(2.0)
+}
+
+.redes-sociais nav a i {
+  margin-right: 8px;
+}
+
+
+
+/*
+ MINHA PALETA DE CORES
+ 
+.color1 { #07f9a2 };
+.color2 { #09c184 };
+.color3 { #0a8967 };
+.color4 { #0c5149 };
+.color5 { #0d192b };
+
+*/

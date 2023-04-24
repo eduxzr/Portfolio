@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #3956d6;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+  }
+  
+  /* Grid de produtos */
+  .container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+  }
+  
+  .products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 31%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  .product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #img-1 {
+    background-image: url('img/auditt.png');
+  }
+  
+  #img-2 {
+    background-image: url('img/bmwz8.png');
+  }
+  
+  #img-3 {
+    background-image: url('img/ferrari458.png');
+  }
+  
+  #img-4 {
+    background-image: url('img/mclaren720s.png');
+  }
+  
+  #img-5 {
+    background-image: url('img/mercedesbenzslc300.png');
+  }
+  
+  #img-6 {
+    background-image: url('img/porschecayman.png');
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: #3956d6;
+    font-size: 24px;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3956d6;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0f1a7e;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #2f4cd1;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+  }
